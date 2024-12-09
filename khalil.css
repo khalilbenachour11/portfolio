@@ -1,0 +1,125 @@
+/*gold styles */
+body {
+    font-family:'helvetica neue', Arial,  sans-serif;
+    margin : 0 ;
+    padding: 0 ;
+    background-color:#f3f3f4;
+    color: #333;
+    line-height: 1.6;
+}
+/*header*/
+header {
+    background: linear-gradient (to right,#1e90ff,#00bfff);
+    background-color: #1e90ff;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding:40px 20px;
+    box-shadow:0px 4px 8px rgba(0,0,0,0.1);
+    }
+    header h1{
+        font-size :3rem;
+        margin:0;
+        letter-spacing: 2px;
+    }
+    header p{ 
+        margin-top:10px ;
+        font-size:1.2rem ;
+    }
+    nav {
+        background-color: #ff8c00; 
+        padding: 15px;
+        box-shadow: 0ox 4px rgba(0,0,0,0.1);
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav ul li {
+        margin: 0 20px;
+    }
+    
+    nav ul li a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+    }
+    
+    nav ul li a:hover {
+        background-color: rgba(255,255,255,0.2);
+        border-radius: 8px;
+        text-decoration: underline ;
+    }
+    section {
+        padding:  60px 20px;
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+    
+    h2 {
+        color:#333;
+        font-size: 2.5rem;
+        text-align: center; 
+        margin-bottom: 40px;
+        position: relative;
+    
+    }
+    h2::after{
+        content: "";
+        display: block;
+        width: 60px;
+        height: 4px;
+        background-color: #ff4500;
+        margin: 10px auto;
+    }
+    p {
+        font-size: 1.1rem;
+        line-height: 1.8;
+        max-width: 800px;
+        margin: 0 auto;
+        
+    }
+
+    
+    footer {
+        text-align: center;
+        padding: 15px;
+        background:#1e90ff; 
+        color: white;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        border-top: 3px solid #111010;
+    }
+    
+    footer a {
+        color:  #f0f0f0;
+    }
+    
+    footer a:hover {
+        text-decoration: underline;
+        color: #0b0b0a; /
+    }
+    
+    article {
+        margin-bottom: 20px;
+    }
+    
+    details {
+        margin-top: 10px;
+        background: #1ab2c6; 
+        padding: 10px;
+        border-radius: 8px; 
+    }
+    
+    
